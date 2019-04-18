@@ -4742,6 +4742,9 @@ AC_CONFIG_FILES([
    exp-bbv/tests/arm-linux/Makefile
    shared/Makefile
    solaris/Makefile
+   foobar/Makefile
+   foobar/docs/Makefile
+   foobar/tests/Makefile
 ])
 AC_CONFIG_FILES([coregrind/link_tool_exe_linux],
                 [chmod +x coregrind/link_tool_exe_linux])
@@ -4749,8 +4752,8 @@ AC_CONFIG_FILES([coregrind/link_tool_exe_darwin],
                 [chmod +x coregrind/link_tool_exe_darwin])
 AC_CONFIG_FILES([coregrind/link_tool_exe_solaris],
                 [chmod +x coregrind/link_tool_exe_solaris])
+#AC_OUTPUT([foobar/Makefile],[foobar/docs/Makefile],[foobar/tests/Makefile])
 AC_OUTPUT
-
 cat<<EOF
 
          Maximum build arch: ${ARCH_MAX}

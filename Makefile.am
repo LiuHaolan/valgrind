@@ -12,7 +12,8 @@ TOOLS = \
 		massif \
 		dhat \
 		lackey \
-		none
+		none \
+		foobar
 
 EXP_TOOLS = \
 		exp-sgcheck \
